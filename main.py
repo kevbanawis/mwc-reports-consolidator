@@ -51,6 +51,8 @@ class Main():
                     value = value.split(',')
                 set_path_var.update({item: value})
 
+            set_path_var[process_type] = process_type
+
     def get_config_values(self):
         from configparser import ConfigParser
 
