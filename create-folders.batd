@@ -1,0 +1,3 @@
+cd C:\Users\Kev\PycharmProjects\consolidateExcel\venv\Scripts
+python -m PyInstaller --add-data "..\..\bats\lawc.bat;bats" --add-data "..\..\bats\mwc.bat;bats" --add-data "..\..\configs\config.xlsx;configs" ..\..\main.py --name "conso-mwc-lawc"
+pause
